@@ -1,9 +1,16 @@
+/* Hide unnecessary elements */
 div.system_notification.style_marketing {display: none;}
 div.aa-header-sub-nav.aa-header-sub-nav-prod { display: none; }
 div.sidebar { visibility: hidden; }
 div#aa-footer { display: none; }
 
+/* Ensure white background for content sections */
 div#container,
 div.frame._app_frame,
 div.content,
 div.content > div {background-image: none; background-color: #fff !important; }
+
+/* Force all collapsible elements (descriptions) to be fully expanded during printout */
+div#app_content div.desc { height: auto !important; }
+.app_details .app-version-note { max-height: none !important; }
+div.show-all-box {display: none;} /* Hide the "Show more"-link */
