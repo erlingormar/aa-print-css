@@ -1,0 +1,9 @@
+div.system_notification.style_marketing {display: none;}
+div.aa-header-sub-nav.aa-header-sub-nav-prod { display: none; }
+div.sidebar { visibility: hidden; }
+div#aa-footer { display: none; }
+
+div#container,
+div.frame._app_frame,
+div.content,
+div.content > div {background-image: none; background-color: #fff !important; }
